@@ -75,7 +75,7 @@ angular.module('myApp.controllers', ['myApp.i18n'])
       var countryIso2 = Config.LangCountries[langCode]
       var shouldPregenerate = !Config.Navigator.mobile
 
-      if (['en', 'en-us', 'en-uk'].indexOf(langCode) == -1) {
+      if (['ru', 'ru-ru', 'ru-ru'].indexOf(langCode) == -1) {
         if (countryIso2 !== undefined) {
           selectPhoneCountryByIso2(countryIso2)
         } else if (langCode.indexOf('-') > 0) {
