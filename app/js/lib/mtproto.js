@@ -770,7 +770,7 @@ angular.module('izhukov.mtproto', ['izhukov.utils'])
         serializer.storeString(navigator.userAgent || 'Unknown UserAgent', 'device_model')
         serializer.storeString(navigator.platform || 'Unknown Platform', 'system_version')
         serializer.storeString(Config.App.version, 'app_version')
-        serializer.storeString(navigator.language || 'en', 'lang_code')
+        serializer.storeString(navigator.language || 'ru', 'lang_code')
       }
 
       if (options.afterMessageID) {
