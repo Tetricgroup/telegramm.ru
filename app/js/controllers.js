@@ -204,7 +204,7 @@ angular.module('myApp.controllers', ['myApp.i18n'])
           phone_number: $scope.credentials.phone_full,
           api_id: Config.App.id,
           api_hash: Config.App.hash,
-          lang_code: navigator.language || 'en'
+          lang_code: navigator.language || 'ru'
         }, options).then(function (sentCode) {
           $scope.progress.enabled = false
 
