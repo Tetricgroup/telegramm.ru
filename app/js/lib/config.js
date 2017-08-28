@@ -58,7 +58,7 @@ Config.Navigator = {
 Config.I18n = {
   locale: 'ru-ru',
   supported: [
-    'en-us'
+    'ru-ru'
     , 'es-es'
     , 'de-de'
     , 'it-it'
