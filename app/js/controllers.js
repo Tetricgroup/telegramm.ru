@@ -1,4 +1,3 @@
-
 /*!
  * Webogram v0.6.0 - messaging web application for MTProto
  * https://github.com/zhukov/webogram
